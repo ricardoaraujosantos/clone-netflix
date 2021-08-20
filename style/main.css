@@ -91,3 +91,11 @@ header nav a:hover{
 .serie-principal .container{
     width: 70%;
 }
+
+/*carosel series*/
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+}

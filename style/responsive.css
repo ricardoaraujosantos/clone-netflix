@@ -1,3 +1,4 @@
+/*interface principal*/
 @media screen and (max-width: 700px) {
     header .container{
         display: flex;
@@ -12,11 +13,29 @@
         margin-top: 5px;
         width: 300px;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
     .serie-principal .descricao{
         width: 50%;
+    }
+}
+
+/*interface login*/
+@media screen and (max-width: 450px) {
+    .tela-login {
+        background: #141414; 
+    }
+
+    .titulo-logo{
+        font-family: Arial, sans-serif;
+    }
+
+    .form-login{
+        margin-bottom: 50px;
+    }
+
+    .form-login h2{
+        margin-top: 0;
     }
 }

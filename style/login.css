@@ -8,9 +8,9 @@
 }
 
 .titulo-logo{
-    font-family: Arial Black;
+    font-family: Arial;
     color: #e50914;
-    font-size: 40px;
+    font-size: 50px;
     margin: 10px 0 20px 30px;
 }
 
@@ -29,7 +29,6 @@
     align-items: center;
     height: 650px;
     width: 450px;
-    
 }
 
 .form-login h2{
@@ -52,7 +51,6 @@
 
 .botao-entrar{
     background-color:#e50914;
-    text-align: center;
     margin-top: 30px;
     cursor: pointer;
 }
@@ -63,8 +61,41 @@
 }
 
 .form-login .lembrar-user a{
-    text-decoration: none;
     color: gainsboro;
-    margin-left: 99px;
-    
+    margin-left: 95px;
 }
+
+.form-login a{
+    text-decoration: none;
+}
+
+.form-login .conectar-face{
+    font-size: 12px;
+    color:gainsboro;
+    margin-right: 154px;
+    margin-top: 50px;
+}
+
+.conectar-face a {
+    color: rgba(190, 186, 186, 0.699);
+}
+
+.form-login .assine-agora{
+    color: rgba(190, 186, 186, 0.699);
+    margin-top: 20px;   
+    margin-right: 100px;
+}
+
+.assine-agora a{
+    color: white;
+}
+
+.form-login .confirme-robo{
+    color: rgba(190, 186, 186, 0.699);
+    font-size: 13px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+

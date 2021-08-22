@@ -24,7 +24,7 @@ header .container {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: Arial Black;
+    font-family: Arial;
     font-size: 40px;
 }
 
@@ -93,6 +93,11 @@ header nav a:hover{
 }
 
 /*carosel series*/
+.titulo-carousel{
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+}
 
 .box-series{
     height: 100%;

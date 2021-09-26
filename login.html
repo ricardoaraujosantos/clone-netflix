@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de login Netflix </title>
-    <link rel="stylesheet" href="../style/main.css">
-    <link rel="stylesheet" href="../style/login.css">
-    <link rel="stylesheet" href="../style/responsive.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/responsive.css">
 </head>
 <body>
-    
         <div class="tela-login">
             <h1 class="titulo-logo">NETFLIX</h1>
             <div class="container-login">
@@ -18,6 +17,7 @@
                         <h2>Entrar</h2>
                         <input id="nameUser" class="input-login" type="text" name="user" placeholder="Email ou número de telefone "></input>
                         <input id="passwordUser" class="input-login" type="password" name="pass" placeholder="Senha" maxlength="8">
+                        <span id="senhaIncorreta"></span>
                         <button id="btnEntrar" class="botao-entrar" role="button" type="submit" value="entrar"> Entrar</button>
                         <p class="lembrar-user"><input type="checkbox" checked name="lembreteUsur" id="LembrarUser">
                             Lembre-se de mim
@@ -35,6 +35,6 @@
                     </form>
             </div> 
         </div>
-    <script src="../js/login.js"></script>
+    <script src="js/login.js"></script>
 </body>
 </html>

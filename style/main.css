@@ -103,8 +103,13 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    transition: all .2s ease-in;
 }
 
 .carousel-series{
     margin-top: 5px;
+}
+
+.item :hover{ 
+    transform: scale(1.1);
 }

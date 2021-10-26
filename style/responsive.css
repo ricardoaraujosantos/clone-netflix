@@ -7,17 +7,30 @@
 
     .serie-principal{
         margin-bottom: 20px;
+        background-position: center;
+    }
+
+    .titulo {
+        font-size: 24px;
     }
 
     .botao{
         margin-top: 5px;
         width: 300px;
     }
+
+    .serie-principal .descricao{
+        font-size: 16px;
+    }
+
+    .carousel-series .titulo-carousel {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .serie-principal .descricao{
-        width: 50%;
+        width: 60%;
     }
 }
 

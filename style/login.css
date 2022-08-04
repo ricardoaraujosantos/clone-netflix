@@ -24,7 +24,7 @@
 .form-login{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000000b3;
     border-radius: 5px;
     align-items: center;
     height: 650px;
@@ -37,7 +37,7 @@
 }
 
 .input-login, button{
-    background-color:rgba(59, 57, 57, 0.8);
+    background-color:#3b3939cc;
     border: none;
     border-radius: 5px;
     width: 70%;
@@ -46,7 +46,7 @@
     padding-left: 20px;
     font-size: 16px;
     font-weight: bolder;
-    color: white;
+    color: #ffffff;
 }
 
 .botao-entrar{
@@ -57,11 +57,11 @@
 
 .form-login .lembrar-user{
     font-size: 12px;
-    color: gainsboro;
+    color: #dcdcdc;
 }
 
 .form-login .lembrar-user a{
-    color: gainsboro;
+    color: #dcdcdc;
     margin-left: 95px;
 }
 
@@ -71,31 +71,27 @@
 
 .form-login .conectar-face{
     font-size: 12px;
-    color:gainsboro;
-    margin-right: 154px;
-    margin-top: 50px;
+    color:#dcdcdc;
+    margin: 50px 154px 0 0;
+   
 }
 
 .conectar-face a {
-    color: rgba(190, 186, 186, 0.699);
+    color: #bebabab2;
 }
 
 .form-login .assine-agora{
-    color: rgba(190, 186, 186, 0.699);
-    margin-top: 20px;   
-    margin-right: 100px;
+    color: #bebabab2;
+    margin: 20px 100px 0 0 ;
 }
 
 .assine-agora a{
-    color: white;
+    color: #ffffff;
 }
 
 .form-login .confirme-robo{
-    color: rgba(190, 186, 186, 0.699);
+    color: #bebabab2;
     font-size: 13px;
     width: 70%;
-    margin-top: 20px;
-    margin-left: 12px;
+    margin: 20px 0 0 12px;
 }
-
-

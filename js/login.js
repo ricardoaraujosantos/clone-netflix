@@ -7,7 +7,6 @@ const user = [
 
 const btnSubmit = document.getElementById('btnEntrar');
 
-
 addEventListener("click", function(el) {
     el.preventDefault();
 

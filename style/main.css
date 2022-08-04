@@ -82,7 +82,7 @@ header nav a:hover{
 
 .botao:hover{
     background-color: #fff;
-    color: black;
+    color: #000000;
 }
 
 .container{
@@ -112,5 +112,6 @@ header nav a:hover{
 }
 
 .item :hover{ 
+    cursor: pointer;
     transform: scale(1.1);
 }
